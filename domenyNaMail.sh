@@ -21,3 +21,8 @@ cat `ls | grep dom_` > dd-pl.txt
  mail -s "Domeny na dziś" "seo@int.pl" < dd-pl.txt
 echo "Wyslano domeny"
 
+# Sekcja specjalna dla wybranych domen:
+
+cat deleted_domains.txt | grep seo.edu.pl 
+
+
