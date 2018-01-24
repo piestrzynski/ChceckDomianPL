@@ -23,6 +23,6 @@ echo "Wyslano domeny"
 
 # Sekcja specjalna dla wybranych domen:
 
-cat deleted_domains.txt | grep seo.edu.pl 
+#cat deleted_domains.txt | grep seo.edu.pl 
 
 
