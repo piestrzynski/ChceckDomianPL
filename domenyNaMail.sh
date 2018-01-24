@@ -18,7 +18,7 @@ cat deleted_domains.txt | grep limanowa > dom_limanowa
 echo "Wyfiltrowano domeny" 
 cat `ls | grep dom_` > dd-pl.txt
 # Wysylka wybranych domen.
- mail -s "Domeny na dziś `date`" "seo@int.pl" < dd-pl.txt
+ mail -s "Domeny na dziś `date`" "dominik@int.pl" < dd-pl.txt
 echo "Wyslano domeny"
 
 # Sekcja specjalna dla wybranych domen:
